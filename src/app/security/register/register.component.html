@@ -1,0 +1,36 @@
+<div class="row h-100">
+    <mat-card class="w-25 h-50 mx-auto my-auto border border-dark d-flex justify-content-center shadow-lg">
+        <form class="mx-auto my-auto">
+            <div class="form-group">
+                <mat-form-field appearance="fill">
+                    <mat-label>Login</mat-label>
+                    <input matInput>
+                </mat-form-field>
+            </div>
+            <div class="form-group">
+                <mat-form-field appearance="fill">
+                    <mat-label>Email</mat-label>
+                    <input matInput placeholder="Ex. pat@example.com">
+                </mat-form-field>
+            </div>
+            <div class="form-group" class="w-100">
+                <mat-form-field appearance="fill">
+                    <mat-label>Hasło</mat-label>
+                    <input matInput type="password">
+                </mat-form-field>
+            </div>
+            <div class="form-group" class="w-100">
+                <mat-form-field appearance="fill">
+                    <mat-label>Powtórz hasło</mat-label>
+                    <input matInput type="password">
+                </mat-form-field>
+            </div>
+            <button mat-raised-button color="primary" class="w-100">Załóż konto</button>
+        </form>
+        <div class="rel">
+            <a mat-raised-button color="accent" routerLink="/login" routerLinkActive="router-link-active">Wróć do logowania</a>        
+        </div>
+    </mat-card>
+
+
+</div>
